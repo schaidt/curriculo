@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('Imagens/escritorio-rustico-com-parede-de-tijolos.jpg');
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    background-color: rgb(12, 77, 161);
+    background-size: cover;
+    margin: auto;
+    /*height: 3000px;*/
+    width: 800px;
+    /*padding-top: 230px;
+    padding-bottom: 50px;*/
+
+}
+
+p {
+    font-size: 0.9em;
+    padding: 6px 12px
+}
+
+.p1 {
+    padding: 0px 45px;
+    text-indent: 0px;
+
+}
+
+header {
+    position: fixed;
+    background-color: rgb(160, 113, 86);
+    padding: 10px;
+    height: 210px;
+    display: inline-block;
+   
+  
+
+
+}
+
+.divf1 {
+
+    text-align: left;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+
+.divf2 {
+    font-size: 3em;
+    text-align: left;
+    background-color: rgb(211, 8, 8);
+    height: 190px;
+    width: 30px;
+    padding: 10px;
+    margin: 2px;
+
+
+}
+
+.divf3 {
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 515px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(38, 83, 38);
+    margin: 5px;
+
+
+}
+
+
+.divf4 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 535px;
+
+}
+
+
+
+.divf5 {
+
+    position: center;
+
+
+
+}
+
+
+.divf6 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+
+
+
+
+}
+
+
+.divf7 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 260px;
+
+
+
+
+}
+
+
+.divf8 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+
+
+
+
+}
+
+
+
+
+
+
+#menu-h ul {
+
+    max-width: 6000px;
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+
+}
+
+#menu-h ul li {
+    display: inline;
+
+}
+
+#menu-h ul li a {
+
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+
+}
+
+
+
+main {
+    
+    z-index: 1;
+    overflow: hidden;
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 30px;
+    margin: 0;
+    height: auto;
+    width: 778px;
+    padding-top: 230px;
+    padding-bottom: 40px;
+    
+
+
+}
+
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    padding: 10px 0px;
+    margin: 5px 5px;
+
+}
+
+.divh2 {
+    font-size: 1em;
+    padding: 10px 2px;
+    
+}
+
+.divp {
+    font-size: 0.9em;
+    padding: 3px 10px;
+    text-align: left;
+    text-indent: 0px;
+    margin: 0px 20px;
+}
+
+
+.ul-1 {
+    list-style-type: disc;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+footer {
+    /*position: initial;*/
+    z-index: 10;
+    text-align: center;
+    font-size: 0.9em;
+    position: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 90px;
+    width: 778px;
+
+}
+
+.table-1 {
+    position: center;
+}
+
+.th-1 {
+    text-align: center;
+    width: 250px;
+}
+
+.td-1 {
+    font-family: "Anta", sans-serif;
+    text-align: center;
+    width: 300px;
+}
+
+
+
+.table-2 {
+    position: center;
+    align-items: center;
+    text-align: right;
+    width: 100px;
+}
+
+.th-2 {
+    text-align: center;
+    width: 400px;
+}
+
+
+.th-3 {
+    text-align: center;
+    width: 100px;
+}
+
+.th-4 {
+    text-align: center;
+    width: 50px;
+}
+
+
+
+.td-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+.td-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+.td-4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+.divcurs {
+    display: inline-block;
+
+}
+
+
+
+.bar {
+    
+    width: 105%;
+    height: 15px;
+    padding: 4px;
+    background-color: rgb(190, 188, 188);
+
+}
+
+.bar1 {
+    font-size: 0.8em;
+    height: 15px;
+    padding: 0px;
+    background-color: red;
+   
+    
+  }
+  
+ 
+
+
+
+
+
+
+.tablecurs {
+   position: center;
+   
+}
+
+.td-c1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: left;
+    width: 100px;
+    padding: 5px;
+    
+}
+
+.td-c2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: left;
+    width: 400px;
+    padding: 5px;
+    
+}
+
+
+.td-c3 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 5px 20px;
+
+}
+
+/*.divt1 {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px;
+
+
+    
+}
+
+.divt2 {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.divt3 {
+
+   border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    
+    
+}*/
